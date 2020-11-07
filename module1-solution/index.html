@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='MyAssignment'>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style> body { font-size: 1.2em; }</style>
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <h1>My Assignemnt Number 1</h1>
+    <div ng-controller='MyController'>
+      <div>
+        <div>Please enter items for lunch:  </div><h5>{{Hint}}</h5>
+      <input type="text" ng-model="ItemsForLunch" placeholder="Please enter data first" >
+    </div>
+         <button ng-click="CheckIfTooMuch();">Check If Too Much</button>
+        <div class={{ColorStatus}}>
+        <h2>{{OrderStatus}}</h2>
+      </div>
+    </div>
+    <style>
+    .Red{
+  color: rgb(255,0,0);
+  }
+    .Green{
+  color: rgb(0,255,0);
+  }
+    }
+    </style>
+  </body>
+</html>
