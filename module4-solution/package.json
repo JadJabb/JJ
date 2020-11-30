@@ -1,0 +1,31 @@
+{
+  "name": "angular-module4-solution",
+  "version": "0.1.0",
+  "description": "Assigment 4 Single Page Applications - Coursera",
+  "main": "index.html",
+  "scripts": {
+    "start": "grunt --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMaRuizH/angular-module4-solution.git"
+  },
+  "keywords": [
+    "angular",
+    "coursera"
+  ],
+  "author": "JuanMa Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanMaRuizH/angular-module4-solution/issues"
+  },
+  "homepage": "https://github.com/JuanMaRuizH/angular-module4-solution#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "jshint-stylish": "^2.2.1"
+  }
+}
